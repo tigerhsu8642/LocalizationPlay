@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!--共通-->
+    <system:String x:Key="Click_OK">OK</system:String>
+    <system:String x:Key="Click_Confirm">OK</system:String>
+    <system:String x:Key="Click_Close">Cerrar</system:String>
+    <system:String x:Key="Click_Min">Minimizar</system:String>
+
+    <system:String x:Key="Version">Versión：</system:String>
+
+    <system:String x:Key="ClassName">&#160;</system:String>
+    <system:String x:Key="ChildName">&#160;</system:String>
+
+    <system:String x:Key="LowPowerWarning">ADVERTENCIA: Batería baja, por favor cárguela lo antes posible.</system:String>
+    <system:String x:Key="IKown">Lo tengo.</system:String>
+
+    <!--程序升级-->
+    <system:String x:Key="UpdaterInfo1">Conectando...</system:String>
+    <system:String x:Key="UpdaterInfo2">Descargando el paquete de actualización...</system:String>
+    <system:String x:Key="UpdaterInfo3">Desembalando el paquete de actualización...</system:String>
+    <system:String x:Key="UpdaterInfo4">Instalando el paquete de actualización...</system:String>
+    <system:String x:Key="UpdaterInfo5">La versión es la última. Cargando...</system:String>
+
+    <!--课堂助教-->
+    <!--UI界面资源文件-->
+    <system:String x:Key="PlayList">Lista de reproducción</system:String>
+    <system:String x:Key="Open">Abrir</system:String>
+    <system:String x:Key="Waiting">Esperando...</system:String>
+    <system:String x:Key="Last">Anterior</system:String>
+    <system:String x:Key="PlayOrPause">Jugar|Pausa</system:String>
+    <system:String x:Key="Next">Siguiente</system:String>
+
+    <!--工具 Tool.exe-->
+    <!--UI界面资源文件-->
+    <system:String x:Key="ToolTitle">Tool v2.6</system:String>
+    <system:String x:Key="NormalSetting">sonido</system:String>
+</ResourceDictionary>

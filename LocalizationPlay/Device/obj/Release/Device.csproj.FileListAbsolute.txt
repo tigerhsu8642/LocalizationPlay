@@ -1,0 +1,16 @@
+D:\Project\2018\November\1123\myrobot\bin\Release\Server.xml
+D:\Project\2018\November\1123\myrobot\bin\Release\Option.xml
+D:\Project\2018\November\1123\myrobot\bin\Release\Setting.xml
+D:\Project\2018\November\1123\myrobot\bin\Release\Device.dll
+D:\Project\2018\November\1123\myrobot\bin\Release\Device.pdb
+D:\Project\2018\November\1123\myrobot\src\Device\obj\Release\Device.csprojResolveAssemblyReference.cache
+D:\Project\2018\November\1123\myrobot\src\Device\obj\Release\Device.dll
+D:\Project\2018\November\1123\myrobot\src\Device\obj\Release\Device.pdb
+D:\Project\2018\November\1128\myrobot\bin\Release\Server.xml
+D:\Project\2018\November\1128\myrobot\bin\Release\Option.xml
+D:\Project\2018\November\1128\myrobot\bin\Release\Setting.xml
+D:\Project\2018\November\1128\myrobot\bin\Release\Device.dll
+D:\Project\2018\November\1128\myrobot\bin\Release\Device.pdb
+D:\Project\2018\November\1128\myrobot\src\Device\obj\Release\Device.csprojResolveAssemblyReference.cache
+D:\Project\2018\November\1128\myrobot\src\Device\obj\Release\Device.dll
+D:\Project\2018\November\1128\myrobot\src\Device\obj\Release\Device.pdb

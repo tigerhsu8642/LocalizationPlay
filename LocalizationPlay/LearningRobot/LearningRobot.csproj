@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1C7D5D4-BF32-4AAD-99AE-775837930E34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LearningRobot</RootNamespace>
+    <AssemblyName>LearningRobot</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>walklake.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GalaSoft.MvvmLight.Extras.WPF4">
+      <HintPath>.\GalaSoft.MvvmLight.Extras.WPF4.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.WPF4">
+      <HintPath>.\GalaSoft.MvvmLight.WPF4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BatteryBar.xaml.cs">
+      <DependentUpon>BatteryBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GifAnimation.cs" />
+    <Compile Include="GifImage.cs" />
+    <Compile Include="Lrc.cs" />
+    <Compile Include="PowerNotificationView.xaml.cs">
+      <DependentUpon>PowerNotificationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Time.cs" />
+    <Compile Include="util\SliderPositionValueToTextConverter.cs" />
+    <Compile Include="util\SliderRemainingPositionValueToTextConverter.cs" />
+    <Compile Include="util\Workspace.cs" />
+    <Compile Include="ViewModel\MainWindowModel.cs" />
+    <Compile Include="ViewModel\BatteryBarViewModel.cs" />
+    <Compile Include="ViewModel\PowerNotificationViewModel.cs" />
+    <Page Include="BatteryBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DictionaryButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DragAdorner.cs" />
+    <Compile Include="ListViewDragDropManager.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="PowerNotificationView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MouseUtilities.cs" />
+    <Compile Include="Music.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\back.ico" />
+    <Resource Include="Images\back2.ico" />
+    <Resource Include="Images\next.ico" />
+    <Resource Include="Images\next2.ico" />
+    <Resource Include="Images\open.ico" />
+    <Resource Include="Images\open1.ico" />
+    <Resource Include="Images\pause.ico" />
+    <Resource Include="Images\pause2.ico" />
+    <Resource Include="Images\play.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\stop.ico" />
+    <Resource Include="Images\stop2.ico" />
+    <Resource Include="Images\volume.ico" />
+    <Resource Include="Images\volume1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\play2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\close.ico" />
+    <Resource Include="Images\close2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\List.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\透明的下拉菜单1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\控制台2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\矩形进入.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\开.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\关.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Lrctext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Lrclistview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\538257.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\538130.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\close.png" />
+    <Resource Include="Images\close2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\thumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\thumb2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\connected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\disconnected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\walklake.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="walklake.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\boot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\add.png" />
+    <Resource Include="Images\current_play.png" />
+    <Resource Include="Images\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\robot_eyes.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\power.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LLComm\LLComm.csproj">
+      <Project>{52084b7a-7f2e-4e7e-8928-ad4917931dba}</Project>
+      <Name>LLComm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Option\Option.csproj">
+      <Project>{35171aef-414a-42ac-a560-b70802830e5a}</Project>
+      <Name>Option</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

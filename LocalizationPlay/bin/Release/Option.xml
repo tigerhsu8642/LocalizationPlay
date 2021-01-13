@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<robodoc>
+  <configs>
+    <pid value="WR01060500000000" />
+    <login value="2019-06-12" />
+  </configs>
+  <devices>
+    <left_device>
+      <parameter>
+        <serial port="COM1" />
+        <camera obj="hand" ip="192.168.1.15" port="554" />
+        <camera obj="mouth" ip="192.168.1.13" port="554" />
+        <camera obj="face" ip="192.168.1.10" port="554" />
+      </parameter>
+    </left_device>
+    <right_device>
+      <parameter>
+        <serial port="COM2" />
+        <camera obj="hand" ip="192.168.1.11" port="554" />
+        <camera obj="mouth" ip="192.168.1.12" port="554" />
+        <camera obj="face" ip="192.168.1.14" port="554" />
+      </parameter>
+    </right_device>
+  </devices>
+</robodoc>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<robodoc>
+  <configs>
+    <pid value="WR01070100000000"/>
+  </configs>
+  <devices>
+    <left_device>
+      <parameter>
+        <serial port="COM1" />
+        <camera obj="hand" ip="192.168.1.15" port="554" />
+        <camera obj="mouth" ip="192.168.1.13" port="554" />
+        <camera obj="face" ip="192.168.1.10" port="554" />
+        <camera obj="card" ip="192.168.1.16" port="554" />
+      </parameter>
+    </left_device>
+  </devices>
+</robodoc>

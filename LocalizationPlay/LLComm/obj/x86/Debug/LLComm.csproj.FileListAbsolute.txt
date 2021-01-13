@@ -1,0 +1,16 @@
+C:\Users\Administrator\Documents\Shawshank\bin\Debug\LLComm.dll
+C:\Users\Administrator\Documents\Shawshank\bin\Debug\LLComm.pdb
+C:\Users\Administrator\Documents\Shawshank\src\LLComm\obj\x86\Debug\LLComm.dll
+C:\Users\Administrator\Documents\Shawshank\src\LLComm\obj\x86\Debug\LLComm.pdb
+C:\Users\Administrator\Desktop\temp\离园考勤v7.10.03\Shawshank\bin\Debug\LLComm.dll
+C:\Users\Administrator\Desktop\temp\离园考勤v7.10.03\Shawshank\bin\Debug\LLComm.pdb
+C:\Users\Administrator\Desktop\temp\离园考勤v7.10.03\Shawshank\src\LLComm\obj\x86\Debug\LLComm.dll
+C:\Users\Administrator\Desktop\temp\离园考勤v7.10.03\Shawshank\src\LLComm\obj\x86\Debug\LLComm.pdb
+D:\Project\2018\0816\离园接送程序\Shawshank\bin\Debug\LLComm.dll
+D:\Project\2018\0816\离园接送程序\Shawshank\bin\Debug\LLComm.pdb
+D:\Project\2018\0816\离园接送程序\Shawshank\src\LLComm\obj\x86\Debug\LLComm.dll
+D:\Project\2018\0816\离园接送程序\Shawshank\src\LLComm\obj\x86\Debug\LLComm.pdb
+D:\Project\2018\0820\离园接送程序\Shawshank\bin\Debug\LLComm.dll
+D:\Project\2018\0820\离园接送程序\Shawshank\bin\Debug\LLComm.pdb
+D:\Project\2018\0820\离园接送程序\Shawshank\src\LLComm\obj\x86\Debug\LLComm.dll
+D:\Project\2018\0820\离园接送程序\Shawshank\src\LLComm\obj\x86\Debug\LLComm.pdb

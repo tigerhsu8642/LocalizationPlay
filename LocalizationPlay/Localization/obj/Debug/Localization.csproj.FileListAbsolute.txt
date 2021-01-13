@@ -1,0 +1,13 @@
+D:\GIT\Repositories\WR0106\boot\boot\Localization\obj\Debug\Localization.csproj.ResolveComReference.cache
+D:\GIT\Repositories\WR0106\boot\boot\Localization\obj\Debug\Localization_MarkupCompile.cache
+D:\GIT\Repositories\WR0106\boot\boot\Localization\obj\Debug\Localization_MarkupCompile.lref
+D:\GIT\Repositories\WR0106\boot\boot\Localization\bin\Debug\Localization.dll
+D:\GIT\Repositories\WR0106\boot\boot\Localization\bin\Debug\Localization.pdb
+D:\GIT\Repositories\WR0106\boot\boot\Localization\obj\Debug\Resources\Cantonese.baml
+D:\GIT\Repositories\WR0106\boot\boot\Localization\obj\Debug\Resources\English.baml
+D:\GIT\Repositories\WR0106\boot\boot\Localization\obj\Debug\Resources\Chinese.baml
+D:\GIT\Repositories\WR0106\boot\boot\Localization\obj\Debug\Localization.g.resources
+D:\GIT\Repositories\WR0106\boot\boot\Localization\obj\Debug\Localization.dll
+D:\GIT\Repositories\WR0106\boot\boot\Localization\obj\Debug\Localization.pdb
+D:\GIT\Repositories\WR0106\boot\bin\Release\Localization.dll
+D:\GIT\Repositories\WR0106\boot\bin\Release\Localization.pdb

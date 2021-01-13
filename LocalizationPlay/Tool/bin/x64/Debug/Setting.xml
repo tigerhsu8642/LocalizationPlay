@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<robodoc>
+  <configs>
+    <auto-mode value="on"/>
+    <auto-clear value="on"/>
+    <face-ct value="0.8"/>
+    <hand-ct value="0.85"/>
+    <mouth-ct value="0.90"/>
+    <mouth-st value="1"/>
+    <face-rd value="0"/>
+    <hand-rd value="0"/>
+    <mouth-rd value="0"/>
+    <rd-to value="10000"/>
+    <grade value="1" />
+  </configs>
+</robodoc>

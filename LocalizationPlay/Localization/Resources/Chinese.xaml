@@ -1,0 +1,39 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <!--共通-->
+    <system:String x:Key="Click_OK">好 的</system:String>
+    <system:String x:Key="Click_Confirm">确 定</system:String>
+    <system:String x:Key="Click_Close">关闭</system:String>
+    <system:String x:Key="Click_Min">最小化</system:String>
+
+    <system:String x:Key="Version">版本号：</system:String>
+
+    <system:String x:Key="ClassName">班级</system:String>
+    <system:String x:Key="ChildName">姓名</system:String>
+
+    <system:String x:Key="LowPowerWarning">警告：设备电量低，为保证正常使用，请尽快连接电源线充电。</system:String>
+    <system:String x:Key="IKown">知道了</system:String>
+
+    <!--程序升级-->
+    <system:String x:Key="UpdaterInfo1">正在检测...</system:String>
+    <system:String x:Key="UpdaterInfo2">正在下载升级包...</system:String>
+    <system:String x:Key="UpdaterInfo3">下载完成，正在解压升级包...</system:String>
+    <system:String x:Key="UpdaterInfo4">解压完成，正在安装升级包...</system:String>
+    <system:String x:Key="UpdaterInfo5">已是最新版本,正在重新启动程序...</system:String>
+  
+    <!--课堂助教-->
+    <!--UI界面资源文件-->
+    <system:String x:Key="PlayList">播放清单</system:String>
+    <system:String x:Key="Open">打开</system:String>
+    <system:String x:Key="Waiting">等待播放...</system:String>
+    <system:String x:Key="Last">上一条</system:String>
+    <system:String x:Key="PlayOrPause">播放|暂停</system:String>
+    <system:String x:Key="Next">下一条</system:String>
+
+    <!--工具 Tool.exe-->
+    <!--UI界面资源文件-->
+    <system:String x:Key="ToolTitle">工具v2.6</system:String>
+    <system:String x:Key="NormalSetting">设置</system:String>
+</ResourceDictionary>

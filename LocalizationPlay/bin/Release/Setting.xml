@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robodoc>
+  <configs>
+    <auto-mode value="on" />
+    <auto-clear value="on" />
+    <face-ct value="0.8" />
+    <hand-ct value="0.85" />
+    <mouth-ct value="0.90" />
+    <mouth-st value="1" />
+    <face-rd value="0" />
+    <hand-rd value="0" />
+    <mouth-rd value="0" />
+    <rd-to value="10000" />
+    <grade value="1" />
+    <exam-timeout value="10" />
+    <devlp-stop4abnormal value="off" />
+    <devlp-clearjpg value="off" />
+    <devlp-isDetailLog value="on" />
+    <is-upload-all value="on" />
+    <devlp-autotrg value="off" />
+    <display-hand-warning value="on" />
+    <display-throat-speakwarning value="off" />
+    <display-Tooth-speakwarning value="off" />
+    <tip-sound value="on" />
+    <skin-type-code value="1" />
+    <mask-mode value="on" />
+    <display-language value="English" />
+  </configs>
+</robodoc>
